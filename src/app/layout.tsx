@@ -17,6 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      {/* <script
+        type="module"
+        src="https://unpkg.com/@splinetool/viewer@1.0.63/build/spline-viewer.js"
+      ></script>
+      <spline-viewer url="https://prod.spline.design/n8KWA6rKlZYSWsSZ/scene.splinecode"></spline-viewer> */}
     </html>
   );
 }
