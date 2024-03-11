@@ -3,16 +3,13 @@ import Button from "../ui/Button";
 import { cn } from "@/utils/cn";
 import { containerStyle, gradientTextStyle } from "@/styles";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
+import Header from "../ui/Header";
 
 const Hero = () => {
   console.log(gradientTextStyle);
   return (
-    <BackgroundGradientAnimation
-      gradientBackgroundEnd="#ffffff"
-      gradientBackgroundStart="#ffffff"
-      interactive={true}
-      className=" w-full flex flex-col items-center"
-    >
+    <BackgroundGradientAnimation className=" w-full flex flex-col items-center">
+      <Header />
       <div
         className={cn(
           containerStyle,

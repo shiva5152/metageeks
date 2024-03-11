@@ -4,7 +4,7 @@ import Header from "@/components/ui/Header";
 export default function Home() {
   return (
     <main className="flex flex-col overflow-x-hidden items-center w-full bg-white">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <div className="mt-16 text-xl font-bold leading-7 text-center text-neutral-500 max-md:mt-10 max-md:max-w-full">
         On-demand Technical Team for SaaS Products and Midsize Businesses

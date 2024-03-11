@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./Button";
 import { cn } from "@/utils/cn";
-import { containerStyle } from "@/styles";
+// import { containerStyle } from "@/styles";
+const containerStyle = "w-full max-w-[1264px]  max-md:max-w-full ";
 
 const Header = () => {
-  console.log(containerStyle);
   return (
     <div
       className={cn(
