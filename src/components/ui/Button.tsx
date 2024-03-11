@@ -1,13 +1,15 @@
 import { cn } from "@/utils/cn";
 import React, { ButtonHTMLAttributes, ReactNode } from "react";
-import { buttonStyle } from "@/styles";
+// import { buttonStyle } from "@/tailwindStyles";
+const buttonStyle =
+  "flex gap-2.5 shadow-[0px_25px_50px_-12px_#18181B]  justify-center rounded-full leading-7 text-center text-white whitespace-nowrap bg-[linear-gradient(0deg,#06CDD6_-1.56%,#2A7DDC_98.44%)]";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   children: ReactNode;
 };
 
 const Button = ({ children, className, ...props }: ButtonProps) => {
-  console.log(buttonStyle);
+  // console.log(buttonStyle);
   return (
     <button className={cn(buttonStyle, className)} {...props}>
       <div className="grow my-auto">{children}</div>
