@@ -18,7 +18,7 @@ const Services = () => {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center  bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className=" w-full  bg-white   bg-grid-black/[0.2] relative flex items-center justify-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center  bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-        <div className="flex overflow-hidden relative flex-col items-center px-16 pt-14 pb-8 text-center min-h-[1242px] max-md:px-5">
+        <div className="flex overflow-hidden relative flex-col items-center px-16 pt-0 pb-8 text-center min-h-[1242px] max-md:px-5">
           <div className="flex relative flex-col items-center max-w-full w-[1048px]">
             <div className="text-5xl font-bold leading-[65.36px] text-zinc-700">
               Our Services

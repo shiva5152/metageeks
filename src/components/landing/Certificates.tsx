@@ -2,7 +2,7 @@ import React from "react";
 
 const Certificates = () => {
   return (
-    <section className="flex flex-col items-center w-full py-20">
+    <section className="flex flex-col items-center w-full py-16">
       <div className="flex flex-col px-5 max-w-[915px]">
         <div className="self-center text-xl font-bold leading-7 text-center text-neutral-500">
           You are with a good company
@@ -20,21 +20,21 @@ const Certificates = () => {
               <img
                 loading="lazy"
                 src="/images/certificate2.svg"
-                className="grow shrink-0 max-w-full aspect-[1.25] w-[225px] max-md:mt-6"
+                className="grow shrink-0 max-w-full aspect-[1.25] w-[126px] max-md:mt-6"
               />
             </div>
             <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
                 src="/images/certificate5.svg"
-                className="grow shrink-0 max-w-full aspect-[1.25] w-[225px] max-md:mt-6"
+                className="grow shrink-0 max-w-full aspect-[1.25] w-[100px] max-md:mt-6"
               />
             </div>
             <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
               <img
                 loading="lazy"
                 src="/images/certificate4.svg"
-                className="grow shrink-0 max-w-full aspect-[1.25] w-[225px] max-md:mt-6"
+                className="grow shrink-0 max-w-full aspect-[1.25] w-[146px] max-md:mt-6"
               />
             </div>
           </div>
