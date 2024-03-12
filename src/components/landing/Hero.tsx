@@ -51,6 +51,9 @@ const Hero = () => {
             {" "}
             Book a call
           </Button>
+          <div className="mt-16 text-xl font-bold leading-7 text-center text-neutral-500 max-md:mt-10 max-md:max-w-full">
+            On-demand Technical Team for SaaS Products and Midsize Businesses
+          </div>
         </div>
       </div>
     </BackgroundGradientAnimation>
