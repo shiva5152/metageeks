@@ -9,7 +9,7 @@ const Header = () => {
     <div
       className={cn(
         containerStyle,
-        "flex gap-5 justify-between items-center px-5 py-6 max-md:flex-wrap"
+        "flex gap-5 z-10  justify-between items-center px-5 py-6 max-md:flex-wrap"
       )}
     >
       <img
