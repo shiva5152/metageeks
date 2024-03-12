@@ -1,26 +1,29 @@
 import React from "react";
 import { cn } from "@/utils/cn";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const Join = () => {
   return (
-    <div className="h-screen flex justify-center flex-col gap-5 bg-black text-white items-center">
-      <div className="bg-clip-text text-6xl font-bold text-transparent bg-[linear-gradient(0deg,#c4c5c7_0%,#dcdddf_52%)]">
-        Join wishlist
-      </div>
-      <p className=" text-center max-w-[60%] font-medium text-xl text-zinc-500">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, corporis
-        pariatur nulla assumenda beatae, alias cumque porro libero, distinctio
-        consequuntur laboriosam? Non ex corporis cumque autem, sapiente quos
-        atque exercitationem.
-      </p>
-      <div className="flex gap-5">
+    <div className="h-[40rem] w-full rounded-md relative flex flex-col items-center justify-center antialiased">
+      <div className="max-w-2xl mx-auto p-4">
+        <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+          Join the waitlist
+        </h1>
+        <p></p>
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
+          Welcome to MailJet, the best transactional email service on the web.
+          We provide reliable, scalable, and customizable email solutions for
+          your business. Whether you&apos;re sending order confirmations,
+          password reset emails, or promotional campaigns, MailJet has got you
+          covered.
+        </p>
         <input
           type="text"
-          placeholder="Enter your email"
-          className="px-3 py-2 border-2 text-gray-500 bg-black border-gray-500 rounded-md shadow-md  focus:outline-none focus:ring-2 focus:ring-black "
+          placeholder="hi@manuarora.in"
+          className="rounded-lg border border-gray-500  focus:ring-teal-500 p-2 focus:ring-0  w-full relative z-10 mt-4  bg-white placeholder:text-neutral-700"
         />
-        <button>submit</button>
       </div>
+      <BackgroundBeams />
     </div>
   );
 };
