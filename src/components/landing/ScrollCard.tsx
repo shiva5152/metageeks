@@ -4,16 +4,16 @@ import { ContainerScroll } from "../ui/container-scroll-animation";
 
 export default function HeroScroll() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div
+      style={{ background: "linear-gradient(to top, #dfe9f3 0%, white 100%)" }}
+      className="flex flex-col  w-[100vw] overflow-hidden"
+    >
       <ContainerScroll
         users={users}
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-white">
-              Unleash the power of <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
-              </span>
+            <h1 className="text-[53px] font-semibold text-black ">
+              Our Testimonials <br />
             </h1>
           </>
         }

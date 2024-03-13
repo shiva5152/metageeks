@@ -1,4 +1,5 @@
 import Certificates from "@/components/landing/Certificates";
+import GetInTouch from "@/components/landing/GetInTouch";
 import Hero from "@/components/landing/Hero";
 import Join from "@/components/landing/Join";
 import HeroScroll from "@/components/landing/ScrollCard";
@@ -20,6 +21,7 @@ export default function Home() {
       {/* <Cards /> */}
       <HeroScroll />
       <Join />
+      <GetInTouch />
       <Footer />
       {/* <Faq /> */}
     </main>
