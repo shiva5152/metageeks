@@ -7,38 +7,6 @@ export default function TextMarquee({
 }: {
   direction: "right" | "left" | undefined;
 }) {
-  const itServices: string[] = [
-    "Software Development",
-    ".",
-    "Web Development",
-    ".",
-    "Mobile Application Development",
-    ".",
-    "Cloud Services",
-    ".",
-    "IT Consulting",
-    ".",
-    "Cybersecurity Services",
-    ".",
-    "Data Analytics",
-    ".",
-    "IT Support",
-    ".",
-    "Network Management",
-    ".",
-    "IT Infrastructure Management",
-    ".",
-    "Database Management",
-    ".",
-    "IT Training",
-    ".",
-    "Managed IT Services",
-    ".",
-    "IT Project Management",
-    ".",
-    "Business Continuity Planning",
-    ".",
-  ];
   return (
     <InfiniteMovingCards
       pauseOnHover={false}
@@ -48,3 +16,36 @@ export default function TextMarquee({
     />
   );
 }
+
+const itServices: string[] = [
+  "Software Development",
+  ".",
+  "Web Development",
+  ".",
+  "Mobile Application Development",
+  ".",
+  "Cloud Services",
+  ".",
+  "IT Consulting",
+  ".",
+  "Cybersecurity Services",
+  ".",
+  "Data Analytics",
+  ".",
+  "IT Support",
+  ".",
+  "Network Management",
+  ".",
+  "IT Infrastructure Management",
+  ".",
+  "Database Management",
+  ".",
+  "IT Training",
+  ".",
+  "Managed IT Services",
+  ".",
+  "IT Project Management",
+  ".",
+  "Business Continuity Planning",
+  ".",
+];

@@ -1,11 +1,11 @@
-import Cards from "@/components/landing/Cards";
 import Certificates from "@/components/landing/Certificates";
 import Hero from "@/components/landing/Hero";
+import Join from "@/components/landing/Join";
+import HeroScroll from "@/components/landing/ScrollCard";
 import Services from "@/components/landing/Services";
 import Technology from "@/components/landing/Technology";
-import Faq from "@/components/landing/Faq";
-import Join from "@/components/landing/Join";
 import TextMarquee from "@/components/landing/TextMarquee";
+import Footer from "@/components/ui/Footer";
 
 export default function Home() {
   return (
@@ -17,9 +17,11 @@ export default function Home() {
       <Certificates />
       <Services />
       <Technology />
-      <Cards />
+      {/* <Cards /> */}
+      <HeroScroll />
       <Join />
-      <Faq />
+      <Footer />
+      {/* <Faq /> */}
     </main>
   );
 }

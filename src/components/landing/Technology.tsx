@@ -1,4 +1,5 @@
 import React from "react";
+import TechMarquee from "@/components/landing/TechMarquee";
 
 const Technology = () => {
   return (
@@ -7,14 +8,55 @@ const Technology = () => {
         <div className="self-center max-md:max-w-full">
           Technologies We Work With
         </div>
-        <img
-          loading="lazy"
-          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ddd8fd8943765b4b21aa5fde428c1b61e460d23befdb6bb2f2a27664480b2e0?apiKey=caf73ded90744adfa0fe2d98abed61c0&"
-          className="mt-12 w-full aspect-[5.56] max-md:mt-10 max-md:max-w-full"
-        />
+        <div className="mt-10 mb-10 text-lg leading-7 font-normal text-gray-600 max-md:mt-10 max-md:max-w-full">
+          We handle everything from design to deployment to get your website
+          shipped
+          <br />
+          and ready to go!
+        </div>
+        <TechMarquee direction="right" />
       </div>
     </section>
   );
 };
 
 export default Technology;
+
+const technologies = [
+  {
+    id: 1,
+    src: "/images/aws.webp",
+  },
+  {
+    id: 2,
+    src: "/images/figma2.svg",
+  },
+  {
+    id: 3,
+    src: "/images/framer.webp",
+  },
+  {
+    id: 4,
+    src: "/images/nextjs2.svg",
+  },
+  {
+    id: 5,
+    src: "/images/node.webp",
+  },
+  {
+    id: 6,
+    src: "/images/react.webp",
+  },
+  {
+    id: 7,
+    src: "/images/sanity.webp",
+  },
+  {
+    id: 8,
+    src: "/images/tailwind.webp",
+  },
+  {
+    id: 9,
+    src: "/images/vercel.webp",
+  },
+];

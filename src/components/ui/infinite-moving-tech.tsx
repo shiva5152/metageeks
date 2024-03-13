@@ -9,7 +9,11 @@ export const InfiniteMovingCards = ({
   pauseOnHover = true,
   className,
 }: {
-  items: string[];
+  items: {
+    id: number;
+    src: string;
+    logoClassName: string;
+  }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
@@ -60,7 +64,7 @@ export const InfiniteMovingCards = ({
       } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
       } else {
-        containerRef.current.style.setProperty("--animation-duration", "160s");
+        containerRef.current.style.setProperty("--animation-duration", "80s");
       }
     }
   };
@@ -75,15 +79,13 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex min-w-full items-start justify-center shrink-0 gap-4 py-4 w-max flex-nowrap",
+          " flex min-w-full h-[150px] justify-center items-center shrink-0 gap-8 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((text, idx) => (
-          <li className=" bg-transparent max-w-full relative " key={idx}>
-            <span className=" text-6xl font-bold ">{text}</span>
-          </li>
+        {items.map((obj, idx) => (
+          <img className={obj.logoClassName} src={obj.src} alt={obj.src} />
         ))}
       </ul>
     </div>
