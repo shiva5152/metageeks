@@ -10,19 +10,19 @@ import Footer from "@/components/ui/Footer";
 
 export default function Home() {
   return (
-    <main className="flex flex-col overflow-x-hidden items-center w-full bg-white">
+    <main className="flex flex-col relative overflow-x-hidden items-center w-full bg-white">
       {/* <Header /> */}
       <Hero />
-      <TextMarquee direction="right" />
-      <TextMarquee direction="left" />
+      {/* <TextMarquee direction="right" />
+      <TextMarquee direction="left" /> */}
       <Certificates />
-      <Services />
-      <Technology />
+      {/* <Services />
+      <Technology /> */}
       {/* <Cards /> */}
-      <HeroScroll />
+      {/* <HeroScroll />
       <Join />
       <GetInTouch />
-      <Footer />
+      <Footer /> */}
       {/* <Faq /> */}
     </main>
   );

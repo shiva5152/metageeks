@@ -29,16 +29,16 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative z-50 w-full mb-16 inset-0 flex flex-col items-center pointer-events-none">
+    <div className=" w-full mb-16 flex flex-col items-center pointer-events-none">
       <Header />
       <div
         className={cn(
           containerStyle,
-          "flex relative z-10 flex-col justify-center items-center pt-32"
+          "flex relative z-10 flex-col px-8 justify-center items-center pt-32"
         )}
       >
-        <div className=" text-[53px] font-bold text-center leading-[83.16px] text-zinc-700 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-          Innovate.Iterate.Illuminate
+        <div className="px-8 text-[53px] relative text-clip font-bold text-center leading-[83.16px] text-zinc-700 max-md:mt-10 w-full max-md:text-4xl">
+          Innovate Iterate Illuminate
         </div>
         <TypewriterEffectSmooth words={words} />
         <div className=" text-xl tracking-wide leading-7 text-center text-zinc-500 max-md:max-w-full">
