@@ -13,16 +13,17 @@ export default function Home() {
     <main className="flex flex-col relative overflow-x-hidden items-center w-full bg-white">
       {/* <Header /> */}
       <Hero />
-      {/* <TextMarquee direction="right" />
-      <TextMarquee direction="left" /> */}
+
       <Certificates />
-      {/* <Services />
-      <Technology /> */}
+      <TextMarquee direction="right" />
+      <TextMarquee direction="left" />
+      <Services />
+      <Technology />
       {/* <Cards /> */}
-      {/* <HeroScroll />
+      <HeroScroll />
       <Join />
       <GetInTouch />
-      <Footer /> */}
+      <Footer />
       {/* <Faq /> */}
     </main>
   );
