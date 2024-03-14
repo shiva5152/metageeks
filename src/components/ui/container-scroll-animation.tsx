@@ -41,11 +41,11 @@ export const ContainerScroll = ({
 
   return (
     <div
-      className="h-[60rem] max-w-fit mx-auto md:h-[80rem] -mt-[30rem] flex items-end justify-center relative"
+      className="h-[60rem] max-w-fit mx-auto md:h-[80rem] -mt-[30rem] max-md:-mt-[40rem] flex items-end justify-center relative"
       ref={containerRef}
     >
       <div
-        className="py-0 w-full relative"
+        className="py-0 w-full relative bottom-0"
         style={{
           perspective: "1000px",
         }}
@@ -103,7 +103,7 @@ export const Card = ({
       <img
         loading="lazy"
         src="/images/projects.png"
-        className="w-full max-md:max-w-full"
+        className="w-full -mb-4 max-md:max-w-full"
       />
     </motion.div>
   );

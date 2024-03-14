@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="mx-auto w-full">
       <div className="border-t  border-solid border-slate-300"></div>
-      <div className="px-10 w-full max-w-[1264px] mx-auto max-md:max-w-full  py-20 border-opacity-10 max-md:px-5">
+      <div className="px-10 w-full max-w-[1264px] mx-auto max-md:max-w-full  py-10 md:py-20 border-opacity-10 max-md:px-10">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[32%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col text-sm font-light leading-5 text-slate-500 max-md:mt-10">
@@ -38,45 +38,45 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[68%] max-md:ml-0 max-md:w-full">
-            <div className="flex gap-5 justify-between items-start mt-1.5 text-sm leading-5 text-neutral-600 max-md:flex-wrap max-md:mt-10">
-              <div className="flex flex-col self-stretch whitespace-nowrap basis-0">
+            <div className="flex gap-5 flex-col md:flex-row  justify-evenly items-start mt-1.5 text-sm leading-5 text-neutral-600 max-md:flex-wrap max-md:mt-10">
+              <div className="flex flex-col  whitespace-nowrap basis-0 md:mr-5">
                 <div className="font-bold text-black">Company</div>
-                <div className="mt-6">Work</div>
-                <div className="mt-5">Services</div>
-                <div className="mt-4">Pricing</div>
-                <div className="mt-4">Templates</div>
-                <div className="mt-4">Blog</div>
-                <div className="mt-4">Contact</div>
+                <div className="mt-4">Work</div>
+                <div className="mt-2">Services</div>
+                <div className="mt-2">Pricing</div>
+                <div className="mt-2">Templates</div>
+                <div className="mt-2">Blog</div>
+                <div className="mt-2">Contact</div>
               </div>
               <div className="flex flex-col flex-1">
                 <div className="font-bold text-black">Services</div>
-                <div className="mt-7 whitespace-nowrap">
+                <div className="mt-4 whitespace-nowrap">
                   Landing Page Development
                 </div>
-                <div className="mt-4">SaaS App development</div>
-                <div className="mt-4 whitespace-nowrap">
+                <div className="mt-2">SaaS App development</div>
+                <div className="mt-2 whitespace-nowrap">
                   Custom Webapp Development
                 </div>
-                <div className="mt-4">AI App Development</div>
+                <div className="mt-2">AI App Development</div>
               </div>
               <div className="flex flex-col flex-1">
                 <div className="font-bold text-black">Legal</div>
-                <div className="mt-6">Privacy Policy</div>
-                <div className="mt-4 whitespace-nowrap">
+                <div className="mt-4">Privacy Policy</div>
+                <div className="mt-2 whitespace-nowrap">
                   Terms and Conditions
                 </div>
-                <div className="mt-4">Refund Policy</div>
+                <div className="mt-2">Refund Policy</div>
               </div>
               <div className="flex flex-col flex-1">
                 <div className="font-bold text-black">Tools</div>
-                <div className="mt-7 whitespace-nowrap">Awesome Components</div>
-                <div className="mt-4 whitespace-nowrap">
+                <div className="mt-4 whitespace-nowrap">Awesome Components</div>
+                <div className="mt-2 whitespace-nowrap">
                   Tailwindcss Buttons
                 </div>
-                <div className="mt-4 whitespace-nowrap">
+                <div className="mt-2 whitespace-nowrap">
                   Mechanical Keyboard
                 </div>
-                <div className="mt-4">Box Shadows</div>
+                <div className="mt-2">Box Shadows</div>
               </div>
             </div>
           </div>

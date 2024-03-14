@@ -5,10 +5,10 @@ const Technology = () => {
   return (
     <section className="py-10">
       <div className="flex flex-col px-5 text-5xl font-bold text-center leading-[65.36px] text-zinc-700">
-        <div className="self-center max-md:max-w-full">
+        <div className="self-center max-md:text-4xl max-md:max-w-full">
           Technologies We Work With
         </div>
-        <div className="mt-10 mb-10 text-lg leading-7 font-normal text-gray-600 max-md:mt-10 max-md:max-w-full">
+        <div className="my-10 text-lg leading-7 font-normal text-gray-600 max-md:my-4 max-md:max-w-full">
           We handle everything from design to deployment to get your website
           shipped
           <br />

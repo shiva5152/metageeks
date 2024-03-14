@@ -12,7 +12,7 @@ export default function HeroScroll() {
         users={users}
         titleComponent={
           <>
-            <h1 className="text-[53px] font-semibold text-black ">
+            <h1 className="text-[53px] max-md:text-4xl font-semibold text-black ">
               Our Testimonials <br />
             </h1>
           </>

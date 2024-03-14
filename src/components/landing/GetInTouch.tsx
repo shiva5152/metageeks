@@ -4,27 +4,27 @@ import Button from "../ui/Button";
 
 const GetInTouch = () => {
   return (
-    <div className="flex justify-center items-center px-16 py-20 bg-white max-md:px-5">
-      <div className="pl-20 mt-14 max-w-full rounded-3xl shadow-2xl w-[1280px] max-md:pl-5 max-md:mt-10">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+    <div className="flex justify-center items-center px-16 py-20 max-md:pt-0 bg-white max-md:px-0">
+      <div className="pl-20 mt-14  max-w-full nax-md:rounded-3xl rounded-none shadow-none md:shadow-2xl w-full md:w-[1280px] max-md:pl-5 max-md:mt-10">
+        <div className="flex gap-5  max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col self-stretch my-auto max-md:mt-10">
+            <div className="flex flex-col px-6 max-md:pb-6 md:px-0 self-stretch my-auto max-md:mt-10 justify-center items-center">
               <img
                 loading="lazy"
                 src="/images/metageeks-logo.png"
                 className="w-10 aspect-square"
               />
-              <div className="mt-6 mr-8 text-4xl font-bold tracking-tighter leading-10 text-neutral-600 max-md:mr-2.5">
+              <div className="mt-6 mr-8 text-4xl font-bold max-md:text-center tracking-tighter leading-10 text-neutral-600 max-md:mr-2.5">
                 Want a website that
-                <br />
+                <br className="hidden md:block" />
                 converts? Get in touch!
               </div>
-              <div className="mt-10 text-lg leading-8 text-neutral-600">
+              <div className="mt-10 text-lg leading-8 max-md:text-center text-neutral-600">
                 Experience the magic of a stunning website
-                <br />
+                <br className="hidden md:block" />
                 designed and developed just for you! ✨
               </div>
-              <Button className="px-8 mt-10 py-4 text-xl w-fit max-md:px-5">
+              <Button className="px-8 mt-10 py-4 text-xl w-fit max-md:w-full max-md:px-5">
                 {" "}
                 Book a call
               </Button>
@@ -60,7 +60,7 @@ const GetInTouch = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">
+          <div className="flex max-md:hidden flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e20f1967236b5ae5d41b52a344ee37624a9e01e616398fc286a926634e1cedf0?apiKey=caf73ded90744adfa0fe2d98abed61c0&"

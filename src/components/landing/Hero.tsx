@@ -41,12 +41,12 @@ const Hero = () => {
           Innovate Iterate Illuminate
         </div>
         <TypewriterEffectSmooth words={words} />
-        <div className=" text-xl tracking-wide leading-7 text-center text-zinc-500 max-md:max-w-full">
+        <div className=" text-xl max-md:-mt-10 tracking-wide leading-7 text-center text-zinc-500 max-md:max-w-full">
           We build software that works, so you can focus on growth.
           <br />
           Simplify complexity with our tailored solutions
         </div>
-        <Button className="px-8 mt-10 py-4 text-xl max-md:px-5">
+        <Button className="px-8 mt-10 py-4 max-md:py-2 max-md:text-xs text-xl max-md:px-5">
           {" "}
           Book a call
         </Button>
