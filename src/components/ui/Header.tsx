@@ -10,8 +10,7 @@ const Header = () => {
   return (
     <nav
       className={cn(
-        containerStyle,
-        "flex gap-5 z-10  justify-between items-center px-5 py-6 max-md:flex-wrap"
+        "flex container mx-auto gap-5 relative z-50  justify-between items-center px-5 py-6 max-md:flex-wrap"
       )}
     >
       <img
@@ -28,18 +27,44 @@ const Header = () => {
         <li className="grow whitespace-nowrap">Contact Us</li>
       </ul>
       {/* mobile menu */}
-      <ul className="md:hidden hidden fixed inset-0 bg-red-400 h-screen z-40 gap-5 justify-between flex-col  text-sm font-medium leading-5 ">
-        <li className="">About us</li>
-        <li>Services</li>
-        <li>Products</li>
-        <li>Case Studies</li>
-        <li className="grow whitespace-nowrap">Contact Us</li>
-      </ul>
+      {isOpen ? (
+        <div className="md:hidden flex justify-center items-center fixed inset-0 bg-white h-screen z-40">
+          <button
+            onClick={() => setIsOpen(false)}
+            className=" absolute top-8 right-8 "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="icon icon-tabler icon-tabler-x"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="#2c3e50"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </button>
+          <ul className="flex gap-[4rem] justify-center text-zinc-600 items-center  flex-col font-bold  text-xl leading-5 ">
+            <li className="">About us</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>Case Studies</li>
+            <li className="grow whitespace-nowrap">Contact Us</li>
+          </ul>
+        </div>
+      ) : null}
       <Button className="px-6 hidden  md:flex py-2.5 text-xs max-md:px-5">
         Book a call
       </Button>
       <button className=" md:hidden ">
         <svg
+          onClick={() => setIsOpen(true)}
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-category"
           width="20"

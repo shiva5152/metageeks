@@ -9,32 +9,15 @@ const gradientTextStyle =
   "bg-clip-text text-transparent bg-[linear-gradient(0deg,#06CDD6_-1.56%,#2A7DDC_98.44%)]";
 
 const Hero = () => {
-  const words = [
-    {
-      text: "Custom",
-    },
-    {
-      text: "Software",
-    },
-    {
-      text: " Solutions",
-    },
-    {
-      text: "with",
-    },
-    {
-      text: "Blockchain & AI.",
-      className: `${gradientTextStyle} shrink text-[53px] basis-auto grow-0 leading-[83.16px] max-md:text-4xl`,
-    },
-  ];
-
   return (
-    <div className=" w-full mb-16 flex flex-col items-center pointer-events-none">
+    <div
+      style={{ background: "linear-gradient(to top,white 0%, #dfe9f3 100%)" }}
+      className=" w-full mb-16 flex flex-col items-center"
+    >
       <Header />
       <div
         className={cn(
-          containerStyle,
-          "flex relative z-10 flex-col px-8 justify-center items-center pt-32"
+          "flex container relative z-10 flex-col justify-center items-center pt-32"
         )}
       >
         <div className="px-8 text-[53px] relative text-clip font-bold text-center leading-[83.16px] text-zinc-700 max-md:mt-10 w-full max-md:text-4xl">
@@ -54,9 +37,28 @@ const Hero = () => {
           On-demand Technical Team for SaaS Products and Midsize Businesses
         </div> */}
       </div>
-      <BackgroundBeams />
+      {/* <BackgroundBeams /> */}
     </div>
   );
 };
 
 export default Hero;
+
+const words = [
+  {
+    text: "Custom",
+  },
+  {
+    text: "Software",
+  },
+  {
+    text: " Solutions",
+  },
+  {
+    text: "with",
+  },
+  {
+    text: "Blockchain & AI.",
+    className: `${gradientTextStyle} shrink text-[53px] basis-auto grow-0 leading-[83.16px] max-md:text-4xl`,
+  },
+];

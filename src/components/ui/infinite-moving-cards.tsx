@@ -81,7 +81,10 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((text, idx) => (
-          <li className=" bg-transparent max-w-full relative " key={idx}>
+          <li
+            className=" uppercase bg-transparent max-w-full relative "
+            key={idx}
+          >
             <span className=" text-6xl font-bold ">{text}</span>
           </li>
         ))}
