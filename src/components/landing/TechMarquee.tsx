@@ -12,7 +12,7 @@ export default function TechMarquee({
       pauseOnHover={false}
       items={technologies}
       direction={direction}
-      speed="slow"
+      speed="fast"
     />
   );
 }
@@ -59,6 +59,51 @@ const technologies = [
   },
   {
     id: 9,
+    src: "/images/vercel.webp",
+    logoClassName: "w-[120px] h-auto",
+  },
+  {
+    id: 10,
+    src: "/images/aws.webp",
+    logoClassName: "w-[60px] h-auto",
+  },
+  {
+    id: 12,
+    src: "/images/figma2.svg",
+    logoClassName: "w-[80px] h-[80px]",
+  },
+  {
+    id: 13,
+    src: "/images/framer.webp",
+    logoClassName: "w-[60px] h-[60px]",
+  },
+  {
+    id: 14,
+    src: "/images/nextjs2.svg",
+    logoClassName: "w-[120px] h-[120px]",
+  },
+  {
+    id: 15,
+    src: "/images/node.webp",
+    logoClassName: "w-[120px] h-auto",
+  },
+  {
+    id: 16,
+    src: "/images/react.webp",
+    logoClassName: "w-[60px] h-[60px]",
+  },
+  {
+    id: 17,
+    src: "/images/sanity.svg",
+    logoClassName: "w-[120px] h-auto",
+  },
+  {
+    id: 18,
+    src: "/images/tailwind.webp",
+    logoClassName: "w-[120] h-auto",
+  },
+  {
+    id: 19,
     src: "/images/vercel.webp",
     logoClassName: "w-[120px] h-auto",
   },

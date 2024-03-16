@@ -20,11 +20,11 @@ const Hero = () => {
           "flex container relative z-10 flex-col justify-center items-center pt-32"
         )}
       >
-        <div className="px-8 text-[53px] relative text-clip font-bold text-center leading-[83.16px] text-zinc-700 max-md:mt-10 w-full max-md:text-4xl">
+        <div className="px-8 text-[53px] relative text-clip font-extralight text-center leading-[83.16px] text-zinc-700 max-md:mt-10 w-full max-md:text-4xl">
           Innovate Iterate Illuminate
         </div>
         <TypewriterEffectSmooth words={words} />
-        <div className=" text-xl max-md:-mt-10 tracking-wide leading-7 text-center text-zinc-500 max-md:max-w-full">
+        <div className=" text-xl max-md:-mt-10 tracking-wide font-extralight leading-7 text-center text-zinc-500 max-md:max-w-full">
           We build software that works, so you can focus on growth.
           <br />
           Simplify complexity with our tailored solutions

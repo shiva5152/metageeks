@@ -4,7 +4,7 @@ import TechMarquee from "@/components/landing/TechMarquee";
 const Technology = () => {
   return (
     <section className="py-10">
-      <div className="flex flex-col px-5 text-5xl font-bold text-center leading-[65.36px] text-zinc-700">
+      <div className="flex flex-col px-5 text-5xl font-extralight text-center leading-[65.36px] text-zinc-700">
         <div className="self-center max-md:text-4xl max-md:max-w-full">
           Technologies We Work With
         </div>

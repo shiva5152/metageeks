@@ -20,7 +20,7 @@ const Services = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center  bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="flex overflow-hidden relative flex-col items-center px-16 pt-0 pb-8 text-center min-h-[1242px] max-md:px-5">
           <div className="flex relative flex-col items-center max-w-full container">
-            <div className="text-5xl max-md:text-4xl font-bold leading-[65.36px] text-zinc-700">
+            <div className="text-5xl max-md:text-4xl font-extralight leading-[65.36px] text-zinc-700">
               Our Services
             </div>
             <div className="mt-14 mb-10  text-lg leading-7 text-gray-600 max-md:my-10 max-md:max-w-full">
@@ -49,10 +49,7 @@ const BentoGridDemo = () => {
           description={item.description}
           header={item.header}
           icon={item.icon}
-          className={cn(
-            i === 3 && "md:row-span-2",
-            (i === 4 || i === 7) && "md:col-span-2"
-          )}
+          className={cn((i === 4 || i === 8) && "md:col-span-2")}
         />
       ))}
     </BentoGrid>
@@ -113,6 +110,12 @@ const items = [
   },
   {
     title: "The Spirit of Adventure even more",
+    description: "Embark on exciting journeys and thrilling discoveries.",
+    header: <Skeleton />,
+    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+  },
+  {
+    title: "The Spirit of Adventure even more then more",
     description: "Embark on exciting journeys and thrilling discoveries.",
     header: <Skeleton />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,

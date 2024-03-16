@@ -29,7 +29,7 @@ const Join = () => {
       <div className="absolute inset-0 w-full h-full bg-white z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <Boxes />
       <div className="max-w-4xl flex flex-col justify-center mx-auto p-4">
-        <h1 className="relative z-10 text-4xl md:text-7xl  text-black  text-center font-sans font-bold">
+        <h1 className="relative z-10  text-4xl md:text-7xl  text-black  text-center font-sans font-extralight">
           Join Our NewsLetter
         </h1>
         <p></p>
@@ -42,7 +42,7 @@ const Join = () => {
         </p>
         <input
           type="text"
-          placeholder="hi@manuarora.in"
+          placeholder="@metageeks.tech"
           className="rounded-lg border mx-auto border-gray-500  focus:ring-teal-500 p-2 focus:ring-0  w-[90%] relative z-10 mt-4  bg-white placeholder:text-neutral-700"
         />
       </div>

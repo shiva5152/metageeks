@@ -14,7 +14,7 @@ const GetInTouch = () => {
                 src="/images/metageeks-logo.png"
                 className="w-10 aspect-square"
               />
-              <div className="mt-6 mr-8 text-4xl font-bold max-md:text-center tracking-tighter leading-10 text-neutral-600 max-md:mr-2.5">
+              <div className="mt-6 mr-8 text-4xl font-exrtralight max-md:text-center tracking-tighter leading-10 text-neutral-600 max-md:mr-2.5">
                 Want a website that
                 <br className="hidden md:block" />
                 converts? Get in touch!

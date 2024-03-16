@@ -10,6 +10,7 @@ import Technology from "@/components/landing/Technology";
 import TextMarquee from "@/components/landing/TextMarquee";
 import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/Header";
+import Testimonials from "@/components/landing/Testimonials";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Technology />
       {/* <Cards /> */}
       <HeroScroll />
+      <Testimonials />
       <Join />
       <GetInTouch />
       <Footer />
