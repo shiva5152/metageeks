@@ -8,7 +8,7 @@ const Certificates = () => {
           You are with a good company
         </div> */}
         <div className="mt-12 w-full max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-wrap justify-center max-md:gap-5">
+          <div className="flex gap-16 max-md:flex-wrap justify-center max-md:gap-5">
             <div className=" ">
               <img
                 loading="lazy"
