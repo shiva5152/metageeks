@@ -8,29 +8,33 @@ const Certificates = () => {
           You are with a good company
         </div> */}
         <div className="mt-12 w-full max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5 mad-md:flex-wrap justify-center max-md:gap-5">
-            <div className="flex flex-col ">
+          <div className="flex gap-5 max-md:flex-wrap justify-center max-md:gap-5">
+            <div className=" ">
               <img
                 loading="lazy"
                 src="/images/c2.png"
-                className=" w-[180px] "
+                className=" w-[180px] max-md:w-[100px]"
               />
             </div>
-            <div className="flex flex-col  ">
-              <img loading="lazy" src="/images/c1.png" className=" w-[180px]" />
+            <div className="">
+              <img
+                loading="lazy"
+                src="/images/c1.png"
+                className="max-md:w-[100px] w-[180px]"
+              />
             </div>
-            <div className="flex flex-col ">
+            <div className="">
               <img
                 loading="lazy"
                 src="/images/c3.png"
-                className=" w-[180px] "
+                className=" w-[180px] max-md:w-[100px]"
               />
             </div>
-            <div className="flex ml-5 ">
+            <div className="">
               <img
                 loading="lazy"
                 src="/images/c4.png"
-                className="  h-[128px] w-auto max-md:mt-6"
+                className="  h-[128px] max-md:h-[80px] w-fit"
               />
             </div>
           </div>
