@@ -4,6 +4,7 @@ import Button from "./Button";
 import { cn } from "@/utils/cn";
 // import { containerStyle } from "@/tailwindStyles";
 const containerStyle = "w-full max-w-[1264px]  max-md:max-w-full ";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,9 @@ const Header = () => {
         <li>Services</li>
         <li>Products</li>
         <li>Case Studies</li>
-        <li className="grow whitespace-nowrap">Contact Us</li>
+        <li className="grow whitespace-nowrap">
+          <Link href="/contact-us">Contact us</Link>
+        </li>
       </ul>
       {/* mobile menu */}
       {isOpen ? (

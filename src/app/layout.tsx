@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/ui/Footer";
+import Header from "@/components/ui/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,12 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      {/* <script
-        type="module"
-        src="https://unpkg.com/@splinetool/viewer@1.0.63/build/spline-viewer.js"
-      ></script>
-      <spline-viewer url="https://prod.spline.design/n8KWA6rKlZYSWsSZ/scene.splinecode"></spline-viewer> */}
+      <body>
+        <main className="flex flex-col overflow-hidden items-center w-full bg-white">
+          {children}
+          <Footer />
+        </main>
+      </body>
     </html>
   );
 }
